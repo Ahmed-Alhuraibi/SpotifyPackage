@@ -19,5 +19,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
 
-
+[tool.pytest.ini_options]
+python_files = "tests*.py"
 
