@@ -1,15 +1,18 @@
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-packages = ["SpotifyPackage"]
-
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools]
+include-package-data = true
+[tool.setuptools.package-data]
+SpotifyPackage = [  ]
+[tool.setuptools.packages.find]
 [project]
 name = "SpotifyPackage"
 authors = [ {name = "Ahmed Alhuraibi",
              email = "alhuraibia@gmail.com"}]
 
 description = "Building Software Assignment"
-version = "1.0"
+version = "0.1.0"
 dependencies = ["requests", "pandas", "numpy","pyyaml"]
 requires-python = ">=3.9.0"
 readme = "README.md"
