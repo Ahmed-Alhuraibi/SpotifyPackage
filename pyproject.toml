@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+packages = ["SpotifyPackage"]
+
+[project]
+name = "SpotifyPackage"
+authors = [ {name = "Ahmed Alhuraibi",
+             email = "alhuraibia@gmail.com"}]
+
+description = "Building Software Assignment"
+version = "0.1.0"
+dependencies = ["requests", "pandas", "numpy","pyyaml"]
+requires-python = ">=3.9.0"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+
+
+
