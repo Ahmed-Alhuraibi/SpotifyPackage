@@ -6,7 +6,7 @@ include-package-data = true
 [tool.setuptools.package-data]
 [tool.setuptools.packages.find]
 [project]
-name = "SpotifyPackage"
+name = "spotifypackage"
 authors = [ {name = "Ahmed Alhuraibi",
              email = "alhuraibia@gmail.com"}]
 
